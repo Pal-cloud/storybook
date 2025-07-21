@@ -61,8 +61,6 @@ npm install
 
 ´´´
 
----
-
 ## Invoca a Storybook con:
 
 ```
@@ -71,5 +69,6 @@ npm run storybook
 
 ```
 
-🤝 Contribuciones
+## 🤝 Contribuciones
+
 Si tienes ideas, chistes malos, mejoras de código o simplemente te cayó bien este repo... ¡haz un fork y manda un PR!
