@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# 📚 Storybook + React + TypeScript = 🔥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenida/o a este repositorio ✨ donde el objetivo es **aprender**, **probar** y **dominar** cómo funciona la estructura de componentes en un proyecto de React con TypeScript usando... ¡🎉 STORYBOOK!  
 
-## Available Scripts
+Además, contiene un componente estrella llamado **`ToDo`**, que viene a poner orden en el caos del día a día. 🧹✅
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧪 ¿Qué es esto?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este proyecto fue creado para entender:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Cómo instalar y configurar Storybook desde cero
+- Cómo organizar componentes y sus historias
+- Cómo crear el glorioso componente `ToDo` que no sabías que necesitabas
+- Qué hay dentro del `.storybook` y por qué debería importarte
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏗️ Estructura de carpetas
 
-### `npm run build`
+Este proyecto tiene una estructura pensada para claridad y escalabilidad. A continuación te muestro cómo están organizados los archivos y carpetas principales:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+📦 raíz-del-proyecto/
+├── 🧰 node_modules/         # Dependencias instaladas vía npm
+├── 📄 .storybook/           # Configuración personalizada de Storybook
+│   ├── main.ts             # Configura addons, framework y rutas de historias
+│   ├── preview.ts          # Configura decoradores globales y estilos
+│   └── manager.ts (opcional) # Personalización de UI
+├── 📁 public/               # Archivos públicos (favicon, index.html)
+├── 📁 src/                  # Código fuente principal
+│   ├── 📁 components/       # Componentes reutilizables
+│   │   └── 📝 ToDo/
+│   │       ├── ToDo.tsx             # Lógica principal del componente
+│   │       ├── ToDo.module.css      # Estilos con CSS Modules
+│   ├── 📁 stories/             # Componentes de ejemplo generados por Storybook
+│   ├── Button.stories.tsx
+│   ├── Header.stories.tsx
+│   └── Page.stories.tsx
+│   ├── App.tsx              # Componente raíz
+│   ├── index.tsx            # Punto de entrada
+├── .gitignore              # Archivos ignorados por git
+├── package.json            # Info del proyecto y scripts
+├── README.md               # Documentación del proyecto
+└── tsconfig.json           # Configuración de TypeScript
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧙 Instalación mágica
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clona el proyecto con tus poderes git:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/Pal-cloud/storybook.git
+cd storybook
+npm install
+´´´
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Invoca a Storybook con:
 
-## Learn More
+npx storybook@latest init
+npm run storybook
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+🤝 Contribuciones
+Si tienes ideas, chistes malos, mejoras de código o simplemente te cayó bien este repo... ¡haz un fork y manda un PR!
