@@ -54,6 +54,7 @@ Este proyecto tiene una estructura pensada para claridad y escalabilidad. A cont
 Clona el proyecto con tus poderes git:
 
 ```
+
 bash
 git clone https://github.com/Pal-cloud/storybook.git
 cd storybook
