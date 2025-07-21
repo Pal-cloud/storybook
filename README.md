@@ -51,24 +51,28 @@ Este proyecto tiene una estructura pensada para claridad y escalabilidad. A cont
 
 ## 🧙 Instalación mágica
 
-Clona el proyecto con tus poderes git:
+Clona el proyecto con tus poderes de Git:
 
-```
-
-bash
+```bash
 git clone https://github.com/Pal-cloud/storybook.git
 cd storybook
 npm install
-
-´´´
-
-## Invoca a Storybook con:
-
 ```
+
+---
+
+## 📖 Invoca a Storybook con tu varita de `npm`
+
+Inicializa (solo si aún no está Storybook) y ejecútalo:
+
+```bash
 npx storybook@latest init
 npm run storybook
-
 ```
+
+Accede desde tu navegador en 👉 `http://localhost:6006`
+
+---
 
 ## 🤝 Contribuciones
 
