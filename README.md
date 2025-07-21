@@ -53,18 +53,23 @@ Este proyecto tiene una estructura pensada para claridad y escalabilidad. A cont
 
 Clona el proyecto con tus poderes git:
 
-```bash
+```
+bash
 git clone https://github.com/Pal-cloud/storybook.git
 cd storybook
 npm install
+
 ´´´
 
 ---
 
 ## Invoca a Storybook con:
 
+```
 npx storybook@latest init
 npm run storybook
+
+```
 
 🤝 Contribuciones
 Si tienes ideas, chistes malos, mejoras de código o simplemente te cayó bien este repo... ¡haz un fork y manda un PR!
